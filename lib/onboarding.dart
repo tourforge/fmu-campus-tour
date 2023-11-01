@@ -26,14 +26,14 @@ class _OnboardingState extends State<Onboarding> {
           ),
           children: [
             Text(
-              "Welcome to\nFlorence Navigator!",
+              "Welcome to\nthe Francis Marion University Campus Tour!",
               style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 8.0),
             Text(
-              "Get ready to learn more about Florence, South Carolina and its history "
-              "as this app takes you on guided driving and walking tours around the area.",
+              "Get ready to learn more about Francis Marion University and its history "
+              "as this app takes you on guided driving and walking tours around campus.",
               style: Theme.of(context).textTheme.bodyLarge,
               textAlign: TextAlign.center,
             ),
@@ -72,7 +72,7 @@ class _OnboardingState extends State<Onboarding> {
             ),
             const SizedBox(height: 8.0),
             Text(
-              "Once you've started a tour, Florence Navigator will use your phone's "
+              "Once you've started a tour, FMU Campus Tour will use your phone's "
               "GPS to play a narration when you approach each tour stop. Make sure "
               "GPS is enabled for this to work.",
               style: Theme.of(context).textTheme.bodyLarge,

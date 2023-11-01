@@ -1,5 +1,5 @@
-name: florence_navigator
-description: The Florence Navigator tour guide app.
+name: fmu_campus_tour
+description: The Francis Marion University Campus Tour app.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

@@ -9,9 +9,9 @@ Future<void> main() async {
 
   runOpenTourGuide(
     config: OpenTourGuideConfig(
-      appName: "Florence Navigator",
+      appName: "Francis Marion University Campus Tour",
       appDesc:
-          '''Florence Navigator is a GPS-based tour guide app for Florence, South Carolina built using OpenTourBuilder.''',
+          '''Francis Marion University Campus Tour is a GPS-based tour guide app for Francis Marion University built using OpenTourBuilder.''',
       baseUrl: "https://fsrv.fly.dev/v2",
       lightThemeData: lightThemeData,
       darkThemeData: darkThemeData,
