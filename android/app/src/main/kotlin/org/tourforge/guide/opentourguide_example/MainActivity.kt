@@ -1,4 +1,4 @@
-package com.visitflo.flonav
+package edu.fmarion.campustour
 
 import com.ryanheise.audioservice.AudioServiceActivity
 

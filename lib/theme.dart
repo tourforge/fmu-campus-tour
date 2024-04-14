@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 const lightColorScheme = ColorScheme(
   brightness: Brightness.light,
   primary: Color.fromARGB(255, 74, 203, 102),
-  secondary: Color.fromARGB(255, 29, 79, 145),
+  secondary: Color.fromARGB(255, 0, 56, 130),
   secondaryContainer: Color.fromARGB(255, 34, 101, 187),
   onPrimary: Color.fromARGB(255, 236, 255, 239),
   onSecondary: Color.fromARGB(255, 211, 233, 255),
@@ -20,7 +20,7 @@ const lightColorScheme = ColorScheme(
 const darkColorScheme = ColorScheme(
   brightness: Brightness.dark,
   primary: Color.fromARGB(255, 74, 203, 102),
-  secondary: Color.fromARGB(255, 29, 79, 145),
+  secondary: Color.fromARGB(255, 0, 56, 130),
   secondaryContainer: Color.fromARGB(255, 34, 101, 187),
   onPrimary: Color.fromARGB(255, 236, 255, 239),
   onSecondary: Color.fromARGB(255, 211, 233, 255),
@@ -56,55 +56,55 @@ ThemeData get lightThemeData => ThemeData(
         ),
       ),
       textTheme: TextTheme(
-        headlineSmall: GoogleFonts.lexend(
+        headlineSmall: GoogleFonts.montserrat(
           color: Colors.black,
-          fontSize: 25.0,
-          fontWeight: FontWeight.w500,
+          fontSize: 24.0,
+          fontWeight: FontWeight.w600,
         ),
-        titleLarge: GoogleFonts.lexend(
+        titleLarge: GoogleFonts.montserrat(
           color: Colors.black,
-          fontSize: 22.0,
-          fontWeight: FontWeight.w500,
+          fontSize: 21.0,
+          fontWeight: FontWeight.w600,
         ),
-        titleMedium: GoogleFonts.lexend(
-          color: Colors.black,
-          fontSize: 16.0,
-          fontWeight: FontWeight.w500,
-        ),
-        titleSmall: GoogleFonts.lexend(
-          color: Colors.black,
-          fontSize: 14.0,
-          fontWeight: FontWeight.w500,
-        ),
-        labelLarge: GoogleFonts.openSans(
-          fontWeight: FontWeight.w500,
-          color: Colors.black,
-          fontSize: 14.0,
-          letterSpacing: 1.1,
-        ),
-        labelMedium: GoogleFonts.openSans(
-          fontWeight: FontWeight.w500,
-          color: Colors.black,
-          fontSize: 12.0,
-          letterSpacing: 1.5,
-        ),
-        labelSmall: GoogleFonts.openSans(
-          fontWeight: FontWeight.w500,
-          color: Colors.black,
-          fontSize: 11.0,
-          letterSpacing: 1.5,
-        ),
-        bodyLarge: GoogleFonts.openSans(
+        titleMedium: GoogleFonts.montserrat(
           color: Colors.black,
           fontSize: 15.0,
+          fontWeight: FontWeight.w600,
         ),
-        bodyMedium: GoogleFonts.openSans(
+        titleSmall: GoogleFonts.montserrat(
+          color: Colors.black,
+          fontSize: 13.0,
+          fontWeight: FontWeight.w600,
+        ),
+        labelLarge: GoogleFonts.sourceSans3(
+          fontWeight: FontWeight.w500,
+          color: Colors.black,
+          fontSize: 16.0,
+          letterSpacing: 1.1,
+        ),
+        labelMedium: GoogleFonts.sourceSans3(
+          fontWeight: FontWeight.w500,
           color: Colors.black,
           fontSize: 14.0,
+          letterSpacing: 1.5,
         ),
-        bodySmall: GoogleFonts.openSans(
+        labelSmall: GoogleFonts.sourceSans3(
+          fontWeight: FontWeight.w500,
           color: Colors.black,
-          fontSize: 12.0,
+          fontSize: 13.0,
+          letterSpacing: 1.5,
+        ),
+        bodyLarge: GoogleFonts.sourceSans3(
+          color: Colors.black,
+          fontSize: 17.0,
+        ),
+        bodyMedium: GoogleFonts.sourceSans3(
+          color: Colors.black,
+          fontSize: 16.0,
+        ),
+        bodySmall: GoogleFonts.sourceSans3(
+          color: Colors.black,
+          fontSize: 14.0,
         ),
       ),
       colorScheme: lightColorScheme,
@@ -141,53 +141,53 @@ ThemeData get darkThemeData => ThemeData(
         ),
       ),
       textTheme: TextTheme(
-        headlineSmall: GoogleFonts.lexend(
+        headlineSmall: GoogleFonts.montserrat(
           color: Colors.white,
           fontSize: 25.0,
           fontWeight: FontWeight.w500,
         ),
-        titleLarge: GoogleFonts.lexend(
+        titleLarge: GoogleFonts.montserrat(
           color: Colors.white,
           fontSize: 22.0,
           fontWeight: FontWeight.w500,
         ),
-        titleMedium: GoogleFonts.lexend(
+        titleMedium: GoogleFonts.montserrat(
           color: Colors.white,
           fontSize: 16.0,
           fontWeight: FontWeight.w500,
         ),
-        titleSmall: GoogleFonts.lexend(
+        titleSmall: GoogleFonts.montserrat(
           color: Colors.white,
           fontSize: 14.0,
           fontWeight: FontWeight.w500,
         ),
-        labelLarge: GoogleFonts.openSans(
+        labelLarge: GoogleFonts.sourceSans3(
           fontWeight: FontWeight.w500,
           color: Colors.white,
           fontSize: 14.0,
           letterSpacing: 1.1,
         ),
-        labelMedium: GoogleFonts.openSans(
+        labelMedium: GoogleFonts.sourceSans3(
           fontWeight: FontWeight.w500,
           color: Colors.white,
           fontSize: 12.0,
           letterSpacing: 1.5,
         ),
-        labelSmall: GoogleFonts.openSans(
+        labelSmall: GoogleFonts.sourceSans3(
           fontWeight: FontWeight.w500,
           color: Colors.white,
           fontSize: 11.0,
           letterSpacing: 1.5,
         ),
-        bodyLarge: GoogleFonts.openSans(
+        bodyLarge: GoogleFonts.sourceSans3(
           color: Colors.white,
           fontSize: 15.0,
         ),
-        bodyMedium: GoogleFonts.openSans(
+        bodyMedium: GoogleFonts.sourceSans3(
           color: Colors.white,
           fontSize: 14.0,
         ),
-        bodySmall: GoogleFonts.openSans(
+        bodySmall: GoogleFonts.sourceSans3(
           color: Colors.white,
           fontSize: 12.0,
         ),

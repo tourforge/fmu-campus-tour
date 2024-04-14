@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:opentourguide/opentourguide.dart';
+import 'package:tourforge_baseline/tourforge.dart';
 
 import 'onboarding.dart';
 import 'theme.dart';
@@ -7,12 +7,12 @@ import 'theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  runOpenTourGuide(
-    config: OpenTourGuideConfig(
-      appName: "Francis Marion University Campus Tour",
+  runTourForge(
+    config: TourForgeConfig(
+      appName: "FMU Campus Tour",
       appDesc:
-          '''Francis Marion University Campus Tour is a GPS-based tour guide app for Francis Marion University built using OpenTourBuilder.''',
-      baseUrl: "https://fsrv.fly.dev/v2",
+          '''FMU Campus Tour is a GPS-based tour guide app for Francis Marion University.''',
+      baseUrl: "https://fmu-tourforge-data.s3.us-east-1.amazonaws.com/FMUCampusTour",
       lightThemeData: lightThemeData,
       darkThemeData: darkThemeData,
     ),

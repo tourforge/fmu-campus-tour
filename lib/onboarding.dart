@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:opentourguide/opentourguide.dart';
+import 'package:tourforge_baseline/tourforge.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key, required this.finish});
@@ -26,7 +26,7 @@ class _OnboardingState extends State<Onboarding> {
           ),
           children: [
             Text(
-              "Welcome to\nthe Francis Marion University Campus Tour!",
+              "Welcome to\nthe FMU Campus Tour!",
               style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center,
             ),
