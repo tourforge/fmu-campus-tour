@@ -12,7 +12,8 @@ Future<void> main() async {
       appName: "FMU Campus Tour",
       appDesc:
           '''FMU Campus Tour is a GPS-based tour guide app for Francis Marion University.''',
-      baseUrl: "https://fmu-tourforge-data.s3.us-east-1.amazonaws.com/FMUCampusTour",
+      baseUrl: "https://tourforge.github.io/config/fmu-campus-tour",
+      baseUrlIsIndirect: true,
       lightThemeData: lightThemeData,
       darkThemeData: darkThemeData,
     ),
