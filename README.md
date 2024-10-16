@@ -2,4 +2,4 @@
 FMU Campus Tour is a GPS-guided tour app for Francis Marion University based on TourForge.
 
 ## Development
-View the [TourForge Guide README](https://github.com/tourforge/guide) for development instructions.
+View the [TourForge Baseline README](https://github.com/tourforge/baseline/blob/main/README.md) for development instructions.
