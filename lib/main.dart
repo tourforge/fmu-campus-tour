@@ -9,7 +9,7 @@ Future<void> main() async {
 
   runTourForge(
     config: TourForgeConfig(
-      appName: "FMU Campus Tour",
+      appName: "FMU Tour",
       appDesc:
           '''FMU Campus Tour is a GPS-based tour guide app for Francis Marion University.''',
       baseUrl: "https://tourforge.github.io/config/fmu-campus-tour",
