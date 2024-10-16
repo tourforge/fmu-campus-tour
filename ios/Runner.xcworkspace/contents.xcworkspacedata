@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../ios/Classes/MapLibreNativeView.swift">
+      location = "group:../../baseline/ios/Classes/MapLibreNativeView.swift">
    </FileRef>
    <FileRef
       location = "group:Runner.xcodeproj">
