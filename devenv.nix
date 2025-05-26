@@ -7,7 +7,7 @@ in
     enable = true;
     flutter.enable = true;
     flutter.package = pkgs-unstable.flutter;
-    android-studio.enable = true;
+    #android-studio.enable = true;
     buildTools.version = [ "34.0.0" ];
     platforms.version = [ "33" "34" ];
   };
